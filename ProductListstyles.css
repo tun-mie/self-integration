@@ -138,4 +138,88 @@ body {
     border-radius: 30px;
     font-size: 16px;
     cursor: pointer;
+
+}
+
+/* ========================= */
+/* 📱 TABLET RESPONSIVE */
+/* ========================= */
+
+@media (max-width: 1024px) {
+
+    body {
+        padding: 25px;
+    }
+
+    .page {
+        grid-template-columns: 2fr 1fr;
+        gap: 20px;
+    }
+
+    .cart {
+        width: 100%;
+    }
+}
+
+
+/* ========================= */
+/* 📱 MOBILE RESPONSIVE */
+/* ========================= */
+
+@media (max-width: 768px) {
+
+    body {
+        padding: 20px;
+    }
+
+    .page {
+        grid-template-columns: 1fr;
+    }
+
+    .container {
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    }
+
+    .card img {
+        height: 140px;
+    }
+
+    .cart {
+        width: 100%;
+        margin-top: 30px;
+        padding: 20px;
+    }
+
+    .cart-item {
+        font-size: 13px;
+    }
+
+    .total {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    body {
+        padding: 15px;
+    }
+
+    .menu h1 {
+        font-size: 22px;
+    }
+
+    .card h2 {
+        font-size: 14px;
+    }
+
+    .price {
+        font-size: 14px;
+    }
+
+    .checkout {
+        padding: 12px;
+        font-size: 14px;
+    }
+
 }
