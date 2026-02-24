@@ -13,7 +13,6 @@ body {
 .page {
     display: grid;
     grid-template-columns: 3fr 1.2fr;
-    align-items: start;
     gap: 30px;
     max-width: 1200px;
     margin: 40px auto;
@@ -99,8 +98,6 @@ body {
 
 
 .cart {
-    position: sticky;
-    top: 40px;
     width: 100%
     background: white;
     border-radius: 14px;
@@ -199,6 +196,7 @@ body {
     }
 
 }
+
 
 
 
