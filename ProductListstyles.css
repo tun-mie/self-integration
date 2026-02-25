@@ -98,7 +98,7 @@ body {
 
 
 .cart {
-    width: 100%
+    width: 100%;
     background: white;
     border-radius: 14px;
     padding: 20px;
@@ -120,7 +120,7 @@ body {
 .total {
     display: flex;
     justify-content: space-between;
-    margin-top: 15px
+    margin-top: 15px;
     font-size: 18px;
 }
 
@@ -196,6 +196,7 @@ body {
     }
 
 }
+
 
 
 
