@@ -186,3 +186,60 @@ h1{
 .confirm-btn:hover{
   background:var(--accent-dark);
 }
+
+@media (max-width: 1024px) {
+
+    body {
+        padding: 25px;
+    }
+
+    .page {
+        grid-template-columns: 2fr 1fr;
+        gap: 20px;
+    }
+
+    .cart {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .page {
+        grid-template-columns: 1fr;
+    }
+
+    .container {
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    }
+   
+    .cart {
+        margin-top: 30px;  
+    }
+}
+
+@media (max-width: 480px) {
+
+    body {
+        padding: 15px;
+    }
+
+    .menu h1 {
+        font-size: 22px;
+    }
+
+    .card h2 {
+        font-size: 14px;
+    }
+
+    .price {
+        font-size: 14px;
+    }
+
+    .checkout {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+}
+
