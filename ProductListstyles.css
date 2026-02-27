@@ -260,6 +260,10 @@ h1{
     font-size:14px;
   }
 
+  .cart{
+    margin-top:10px;
+  }
+
 }
 
 @media (max-width: 480px){
@@ -296,8 +300,3 @@ h1{
 
 }
 
-@media (max-width:768px){
-  .cart{
-    margin-top:10px;
-  }
-}
